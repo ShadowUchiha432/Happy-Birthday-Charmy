@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  font-family: "Quicksand", system-ui, sans-serif;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  touch-action: manipulation;
+}
+
+/* Smooth scrolling feel */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Lilac tint utility */
+.text-lilac {
+  color: #c8a4d9;
+}
